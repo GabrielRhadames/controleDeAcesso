@@ -34,10 +34,10 @@ function entrar() {
     document.getElementsByTagName("body")[0].style = 'background-image:url(".../img/harry-potter..jpg")'
   } else if (inputNome === 'Fiona' || inputNome === 'fiona' || inputNome === 'fiona ' || inputNome === 'Fiona ') {
     mensagemPersonalizada = 'Princesas não deveriam ficar em filas, acesso liberado!'
-    document.getElementsByTagName("body")[0].style = 'background-image:url("../img/Fiona.jpg")'
+    document.getElementsByTagName("body")[0].style = 'background-image:url("./img/Fiona.jpg")'
   } else if (inputNome === 'Mulher Maravilha' || inputNome === 'mulher maravilha' || inputNome === 'Mulher maravilha' || inputNome === 'Mulher Maravilha ' || inputNome === 'mulher maravilha ') {
     mensagemPersonalizada = 'O laço da verdade me obriga a ser sincero, acesso liberado!'
-    document.getElementsByTagName("body")[0].style = 'background-image:url("../img/wonder-woman.jpg")'
+    document.getElementsByTagName("body")[0].style = 'background-image:url("..../img/wonder-woman.jpg")'
   } else if (inputNome === 'Homem Aranha' || inputNome === 'homem aranha' || inputNome === 'Homem aranha '|| inputNome === 'Homem aranha' || inputNome === 'Homem Aranha ' || inputNome === 'homem aranha '|| inputNome === 'homem Aranha '|| inputNome === 'Homem-Aranha'|| inputNome === 'Homem-Aranha ') {
     mensagemPersonalizada = 'Nosso heroi cabeça de teia tem acesso liberado!'
     document.getElementsByTagName("body")[0].style = 'background-image:url("../img/Homem-Aranha.jpg")'
