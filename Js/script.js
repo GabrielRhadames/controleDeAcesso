@@ -24,7 +24,7 @@ function entrar() {
     maiorOuMenor = 'menor'
   }
 
-  let mensagemPersonalizada = 'Entrada liberada, acesse a bilheteria para a compra do ingresso. Você não faz parte da nossa lista seleta de selebridades com credencias especiais!'
+  let mensagemPersonalizada = 'Entrada liberada, acesse a bilheteria para a compra do ingresso. Você não faz parte da nossa lista seleta de celebridades com credencias especiais!'
 
   if (inputNome === 'Thomas Anderson' || inputNome === 'thomas anderson'|| inputNome === 'Thomas anderson' || inputNome === 'Thomas Anderson '|| inputNome === 'thomas Anderson') {
     mensagemPersonalizada = 'Você é o escolhido, Neo! Tudo é a Matrix!'
