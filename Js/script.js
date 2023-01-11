@@ -28,25 +28,25 @@ function entrar() {
 
   if (inputNome === 'Thomas Anderson' || inputNome === 'thomas anderson'  || inputNome === 'Thomas anderson' || inputNome === 'Thomas Anderson '|| inputNome === 'thomas Anderson') {
     mensagemPersonalizada = 'Você é o escolhido, Neo! Tudo é a Matrix!'
-    document.getElementsByTagName("body")[0].style = 'background-image:url("../img/Thomas Anderson.jpeg")'
+    document.getElementsByTagName("body")[0].style = 'background-image:url("./img/Thomas Anderson.jpeg")'
   } else if (inputNome === 'Harry Potter' || inputNome === 'harry potter' || inputNome === 'Harry potter' || inputNome === 'Harry Potter '|| inputNome === 'harry Potter') {
     mensagemPersonalizada = 'Você é um bruxo, pode desaparatar pra onde quiser'
-    document.getElementsByTagName("body")[0].style = 'background-image:url("../img/harry-potter..jpeg")'
+    document.getElementsByTagName("body")[0].style = 'background-image:url("./img/harry-potter..jpeg")'
   } else if (inputNome === 'Fiona' || inputNome === 'fiona' || inputNome === 'fiona ' || inputNome === 'Fiona ') {
     mensagemPersonalizada = 'Princesas não deveriam ficar em filas, acesso liberado!'
-    document.getElementsByTagName("body")[0].style = 'background-image:url("../img/Fiona.jpeg")'
+    document.getElementsByTagName("body")[0].style = 'background-image:url("./img/Fiona.jpeg")'
   } else if (inputNome === 'Mulher Maravilha' || inputNome === 'mulher maravilha' || inputNome === 'Mulher maravilha' || inputNome === 'Mulher Maravilha ' || inputNome === 'mulher maravilha ') {
     mensagemPersonalizada = 'O laço da verdade me obriga a ser sincero, acesso liberado!'
-    document.getElementsByTagName("body")[0].style = 'background-image:url("../img/wonder-woman.jpeg")'
+    document.getElementsByTagName("body")[0].style = 'background-image:url("./img/wonder-woman.jpeg")'
   } else if (inputNome === 'Homem Aranha' || inputNome === 'homem aranha' || inputNome === 'Homem aranha ' || inputNome === 'Homem Aranha ' || inputNome === 'homem aranha '|| inputNome === 'homem Aranha '|| inputNome === 'Homem-Aranha'|| inputNome === 'Homem-Aranha ') {
     mensagemPersonalizada = 'Nosso heroi cabeça de teia tem acesso liberado!'
-    document.getElementsByTagName("body")[0].style = 'background-image:url("../img/Homem-Aranha.jpeg")'
+    document.getElementsByTagName("body")[0].style = 'background-image:url("./img/Homem-Aranha.jpeg")'
   } else if (inputNome === 'Bolsolula' || inputNome === 'bolsolula' || inputNome === 'bolsolula ' || inputNome === 'Bolsolula ') {
     mensagemPersonalizada = 'Acesso liberado, "TÁ OK!?"'
-    document.getElementsByTagName("body")[0].style = 'background-image:url("../img/Bolsolula.jpeg")'
+    document.getElementsByTagName("body")[0].style = 'background-image:url("./img/Bolsolula.jpeg")'
   } else if (inputNome === 'Lulanaro' || inputNome === 'lulanaro' || inputNome === 'Lulanaro ' || inputNome === 'lulanaro ') {
     mensagemPersonalizada = 'Acesso liberado, "COMPANHEIRO!"'
-    document.getElementsByTagName("body")[0].style = 'background-image:url("../img/Lulanaro.jpeg")'
+    document.getElementsByTagName("body")[0].style = 'background-image:url("./img/Lulanaro.jpeg")'
   }
 
 
