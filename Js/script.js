@@ -41,7 +41,7 @@ function entrar() {
   } else if (inputNome === 'Homem Aranha' || inputNome === 'homem aranha' || inputNome === 'Homem aranha '|| inputNome === 'Homem aranha' || inputNome === 'Homem Aranha ' || inputNome === 'homem aranha '|| inputNome === 'homem Aranha '|| inputNome === 'Homem-Aranha'|| inputNome === 'Homem-Aranha ') {
     mensagemPersonalizada = 'Nosso heroi cabeça de teia tem acesso liberado!'
     document.getElementsByTagName("body")[0].style = 'background-image:url("./img/Homem-Aranha.jpg")'
-  } else if (inputNome === 'Mellina' || inputNome === 'Mellina ' || inputNome === 'mellina' || inputNome === 'mellina ' || inputNome === 'Mell' || inputNome === 'Mell ') {
+  } else if (inputNome === 'Mellina' || inputNome === 'Mellina ' || inputNome === 'mellina' || inputNome === 'mellina ' || inputNome === 'Mell' || inputNome === 'Mell ' || inputNome === 'mell ' || inputNome === 'mell') {
     mensagemPersonalizada = 'Pode fazer pose, pode? Fofura!!"'
     document.getElementsByTagName("body")[0].style = 'background-image:url("./img/Mell.jpg")'
   } else if (inputNome === 'Bolsolula' || inputNome === 'bolsolula' || inputNome === 'bolsolula ' || inputNome === 'Bolsolula ') {
