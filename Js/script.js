@@ -28,10 +28,10 @@ function entrar() {
 
   if (inputNome === 'Thomas Anderson' || inputNome === 'thomas anderson'  || inputNome === 'Thomas anderson' || inputNome === 'Thomas Anderson '|| inputNome === 'thomas Anderson') {
     mensagemPersonalizada = 'Você é o escolhido, Neo! Tudo é a Matrix!'
-    document.getElementsByTagName("body")[0].style = 'background-image:url("../img/Thomas Anderson.jpg")'
+    document.getElementsByTagName("body")[0].style = 'background-image:url(../img/Thomas Anderson.jpg)'
   } else if (inputNome === 'Harry Potter' || inputNome === 'harry potter' || inputNome === 'Harry potter' || inputNome === 'Harry Potter '|| inputNome === 'harry Potter') {
     mensagemPersonalizada = 'Você é um bruxo, pode desaparatar pra onde quiser'
-    document.getElementsByTagName("body")[0].style = 'background-image:url("../img/harry-potter..jpg")'
+    document.getElementsByTagName("body")[0].style = 'background-image:url(".../img/harry-potter..jpg")'
   } else if (inputNome === 'Fiona' || inputNome === 'fiona' || inputNome === 'fiona ' || inputNome === 'Fiona ') {
     mensagemPersonalizada = 'Princesas não deveriam ficar em filas, acesso liberado!'
     document.getElementsByTagName("body")[0].style = 'background-image:url("../img/Fiona.jpg")'
